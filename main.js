@@ -1,9 +1,9 @@
 // alert('chien dep trai')
-console.log('chien dep trai');
+console.log('chien dep trai 1234');
 let fullName=`Nguyen Huu Chien`;
 let age=21;
 
-//bai 1---cac ham co ban js
+// // bai 1---cac ham co ban js
 // alert('chien rat rat dep trai');
 // confirm('xac nhan ban du tuoi');
 // prompt("xac nha du tuoi");
@@ -19,7 +19,7 @@ let age=21;
 // }, 1000);
 
 
-//setinterval sau bn giay se chay code
+//settimeout sau bn giay se chay code
 // let timer1=setTimeout(() => {
 //     alert(fullName);
 // },5000)
@@ -63,14 +63,61 @@ let age=21;
 // a--;
 // console.log(`a  giam 1 gia tri so`,a)
 
-//bai 4 ++ --
-//prefix & postfix--- tien to ,hau to
-let a=6;
-a++;//hau to gan gia tri cho a va tang len 1 dv
-console.log(a);
-a--;//gan gia tri a va giam 1 dv
-console.log(a);
-++a;//tang 1 dv sau do gan cho a
-console.log(a);
---a;//giam 1 dv sau do gan cho a
-console.log(a);
+// //bai 4 ++ --
+// //prefix & postfix--- tien to tang xong gan gia tri ,
+// //hau to gan gia tri xong tang
+// let a=6;
+// a++;
+// console.log(a);
+// a--;
+// console.log(a);
+// ++a;
+// console.log(a);
+// --a;
+// console.log(a);
+
+
+// //bai 5 toan tu gan
+// let a=1;
+// a += 2;
+// console.log(a)
+
+// //bai 6 toan t chuoi
+// let firstName=`Son`;
+// let lastName=`chien`;
+// console.log(firstName,``+lastName);
+
+
+// //bai 7 ===/ ==
+// let a=1;
+// let b=2;
+// if(a===b){
+//     console.log('a bang b')
+// }else{
+//     console.log('a khac b')
+// }
+
+// //bai 8 kieu du lieu boolean
+// let a=1,b=2;
+// let isSuccess= a>b;
+
+// console.log(isSuccess);
+
+// //bai 9 if else
+
+// let isSuccess= 1<2
+// if(isSuccess){
+//     console.log(`dieu kien dung`)
+// }else{
+//     console.log(`dieu kien sai`)
+// }
+
+
+// //bai 10
+// let a=1,b=2,c=3;
+// if(a>0 && b>0 && c>0){
+//     console.log(`dieu kien dung 123`)
+// }else if(!(a==1)){
+//     console.log(`dieu kien van dung`)
+// }
+
