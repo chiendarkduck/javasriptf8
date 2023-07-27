@@ -121,3 +121,28 @@ let age=21;
 //     console.log(`dieu kien van dung`)
 // }
 
+// let tuoi =21;
+// console.log(typeof tuoi.toString())
+// // lam tron so thap phan
+// let pi=3.7476767;
+// console.log(pi.toFixed(2))
+
+
+// let arr=[
+//     'javascript',
+//     'php',
+//     'Ruby',
+// ]
+// console.log(arr.join(", "))
+// arr.splice(1, 0, 'Java')
+
+// console.log(arr);
+
+// let arr1=['1', '2', '3']
+// console.log(arr.concat(arr1))
+// console.log(arr.slice(0))
+
+let showDialog=(message)=>{
+    console.log(message)
+}
+showDialog('test message',)
