@@ -142,7 +142,12 @@ let age=21;
 // console.log(arr.concat(arr1))
 // console.log(arr.slice(0))
 
-let showDialog=(message)=>{
-    console.log(message)
+// let showDialog=(message)=>{
+//     console.log(message)
+// }
+// showDialog('test message',)
+
+let cong=(a,b)=>{
+    return a+b;
 }
-showDialog('test message',)
+console.log(cong(5,9))
