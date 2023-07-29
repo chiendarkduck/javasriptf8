@@ -1,7 +1,7 @@
 // alert('chien dep trai')
-console.log('chien dep trai 1234');
-let fullName=`Nguyen Huu Chien`;
-let age=21;
+console.log('chien dep trai 12345');
+// let fullName=`Nguyen Huu Chien`;
+// let age=21;
 
 // // bai 1---cac ham co ban js
 // alert('chien rat rat dep trai');
@@ -177,14 +177,17 @@ let age=21;
 
 //object constructor
 
-// function user(firstName,lastName,avatar){
-//     this.firstName = firstName;
-//     this.lastName = lastName;
-//     this.avatar = avatar;
-// }
-// console.log(typeof user);
-// let author=new user('chien','nguyen','deptrai');
-// let user1=new user('vu','nguyen','deptrai');
+function user(firstName,lastName,avatar){
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.avatar = avatar;
+}
+console.log(typeof user);
+let author=new user('chien','nguyen','deptrai');
+let user1=new user('vu','nguyen','deptrai');
 
-// console.log(author);
-// console.log(user1);
+user.prototype.className='D15CNPM2'
+console.log(author.className);
+console.log(user1);
+
+
