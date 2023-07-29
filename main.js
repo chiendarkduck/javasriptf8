@@ -147,7 +147,30 @@ let age=21;
 // }
 // showDialog('test message',)
 
-let cong=(a,b)=>{
-    return a+b;
+// let cong=(a,b)=>{
+//     return a+b;
+// }
+// console.log(cong(5,9))
+
+// cong=(a,b)=>{
+//     return a+b;
+// }
+// console.log(cong(5,8))
+
+
+let myInfo={
+    name: 'chien',
+    age: 21,
+    address: 'ha noi',
+    getname: function (){
+        return this.name;
+    }
 }
-console.log(cong(5,9))
+myInfo.email='chien@gmail.com';
+
+
+
+
+delete myInfo.email;
+
+console.log('my object:', myInfo.getname());
