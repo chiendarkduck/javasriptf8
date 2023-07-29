@@ -158,19 +158,33 @@ let age=21;
 // console.log(cong(5,8))
 
 
-let myInfo={
-    name: 'chien',
-    age: 21,
-    address: 'ha noi',
-    getname: function (){
-        return this.name;
-    }
-}
-myInfo.email='chien@gmail.com';
+// let myInfo={
+//     name: 'chien',
+//     age: 21,
+//     address: 'ha noi',
+//     getname: function (){
+//         return this.name;
+//     }
+// }
+// myInfo.email='chien@gmail.com';
 
 
 
 
-delete myInfo.email;
+// delete myInfo.email;
 
-console.log('my object:', myInfo.getname());
+// console.log('my object:', myInfo.getname());
+
+//object constructor
+
+// function user(firstName,lastName,avatar){
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//     this.avatar = avatar;
+// }
+// console.log(typeof user);
+// let author=new user('chien','nguyen','deptrai');
+// let user1=new user('vu','nguyen','deptrai');
+
+// console.log(author);
+// console.log(user1);
