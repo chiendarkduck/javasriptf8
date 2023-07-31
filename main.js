@@ -177,17 +177,22 @@ console.log('chien dep trai 12345');
 
 //object constructor
 
-function user(firstName,lastName,avatar){
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.avatar = avatar;
-}
-console.log(typeof user);
-let author=new user('chien','nguyen','deptrai');
-let user1=new user('vu','nguyen','deptrai');
+// function user(firstName,lastName,avatar){
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//     this.avatar = avatar;
+// }
+// console.log(typeof user);
+// let author=new user('chien','nguyen','deptrai');
+// let user1=new user('vu','nguyen','deptrai');
 
-user.prototype.className='D15CNPM2'
-console.log(author.className);
-console.log(user1);
+// user.prototype.className='D15CNPM2'
+// console.log(author.className);
+// console.log(user1);
 
+//object date
+let date=new Date();
+
+console.log( date.getFullYear(), date.getMonth(), date.getDate())
+console.log(`ngay : ${date.getDate()}, thang : ${date.getMonth()}`)
 
