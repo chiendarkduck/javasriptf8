@@ -191,8 +191,17 @@ console.log('chien dep trai 12345');
 // console.log(user1);
 
 //object date
-let date=new Date();
+// let date=new Date();
 
-console.log( date.getFullYear(), date.getMonth(), date.getDate())
-console.log(`ngay : ${date.getDate()}, thang : ${date.getMonth()}`)
+// console.log( date.getFullYear(), date.getMonth(), date.getDate())
+// console.log(`ngay : ${date.getDate()}, thang : ${date.getMonth()}`)
+
+//if else
+
+let date=2;
+if(date===2){
+    console.log('hom nay la thu hai');
+}else if(date===3){
+    console.log('hom nay la thu ba');
+}
 
