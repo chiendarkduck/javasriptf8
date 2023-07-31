@@ -207,32 +207,50 @@ console.log('chien dep trai 12345');
 
 //switch case
 
-let date=4;
+// let date=4;
 
-switch(date){
-    case 2: 
-        console.log('hom nay la thu hai');
-        break;
-    case 3:
-        console.log('hom nay la thu ba');	
-        break;
-    case 4:
-        console.log('hom nay la thu tu');
-        break;
-    case 5:
-        console.log('hom nay la thu nam');
-        break;
-    case 6:
-        console.log('hom nay la thu sau');
-        break;
-    case 7:
-        console.log('hom nay la thu bay');
-        break;
-    case 8:
-        console.log('hom nay la chu nhat');
-        break;
-    default:
-        console.log('khong xac dinh');
-        break;
+// switch(date){
+//     case 2: 
+//         console.log('hom nay la thu hai');
+//         break;
+//     case 3:
+//         console.log('hom nay la thu ba');	
+//         break;
+//     case 4:
+//         console.log('hom nay la thu tu');
+//         break;
+//     case 5:
+//         console.log('hom nay la thu nam');
+//         break;
+//     case 6:
+//         console.log('hom nay la thu sau');
+//         break;
+//     case 7:
+//         console.log('hom nay la thu bay');
+//         break;
+//     case 8:
+//         console.log('hom nay la chu nhat');
+//         break;
+//     default:
+//         console.log('khong xac dinh');
+//         break;
+// }
+
+//toan tu ba ngoi
+
+let course={
+    name:'javascript',
+    coin: 250,
 }
+// if(course.coin>0){
+//     console.log('gia cua khoa hoc la: ',course.coin);
+// }else{
+//     console.log('khong xac dinh duoc gia cua khoa hoc');
+// }
 
+let result=course.coin===250 ? console.log('gia cua khoa hoc la: ',course.coin) : console.log('khong xac dinh duoc gia cua khoa hoc');
+ let a=1,b=2;
+
+ let c=a>0 ? a : b;
+
+ console.log('c=',c)
