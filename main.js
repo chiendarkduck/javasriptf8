@@ -198,10 +198,41 @@ console.log('chien dep trai 12345');
 
 //if else
 
-let date=2;
-if(date===2){
-    console.log('hom nay la thu hai');
-}else if(date===3){
-    console.log('hom nay la thu ba');
+// let date=2;
+// if(date===2){
+//     console.log('hom nay la thu hai');
+// }else if(date===3){
+//     console.log('hom nay la thu ba');
+// }
+
+//switch case
+
+let date=4;
+
+switch(date){
+    case 2: 
+        console.log('hom nay la thu hai');
+        break;
+    case 3:
+        console.log('hom nay la thu ba');	
+        break;
+    case 4:
+        console.log('hom nay la thu tu');
+        break;
+    case 5:
+        console.log('hom nay la thu nam');
+        break;
+    case 6:
+        console.log('hom nay la thu sau');
+        break;
+    case 7:
+        console.log('hom nay la thu bay');
+        break;
+    case 8:
+        console.log('hom nay la chu nhat');
+        break;
+    default:
+        console.log('khong xac dinh');
+        break;
 }
 
