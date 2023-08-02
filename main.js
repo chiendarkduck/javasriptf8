@@ -300,12 +300,20 @@ console.log('chien dep trai 12345');
 // } while(!isSuccess&&isSuccess<3);
 
 // break and continue
-for(let i=0;i<10;i++){
-    if(i%2!==0){
-        continue;
+// for(let i=0;i<10;i++){
+//     if(i%2!==0){
+//         continue;
+//     }
+//     console.log(i);
+//     // if(i>=5){
+//     //     break;
+//     // }
+// }
+
+let myArr=[[1,2],[7,3],[4,5]];
+
+for(let i=0;i<myArr.length;i++){
+    for(let j=0;j<myArr[i].length;j++){
+        console.log(myArr[i][j]);
     }
-    console.log(i);
-    // if(i>=5){
-    //     break;
-    // }
 }
