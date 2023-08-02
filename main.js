@@ -286,15 +286,26 @@ console.log('chien dep trai 12345');
 
 //do while loop
 
-let i=0;
+// let i=0;
 
-let isSuccess = false;
+// let isSuccess = false;
 
-do{
-    i++;
-    console.log('nap the lan',i);
-    if(true){
-        isSuccess = true;
-    }
+// do{
+//     i++;
+//     console.log('nap the lan',i);
+//     if(true){
+//         isSuccess = true;
+//     }
     
-} while(!isSuccess&&isSuccess<3);
+// } while(!isSuccess&&isSuccess<3);
+
+// break and continue
+for(let i=0;i<10;i++){
+    if(i%2!==0){
+        continue;
+    }
+    console.log(i);
+    // if(i>=5){
+    //     break;
+    // }
+}
