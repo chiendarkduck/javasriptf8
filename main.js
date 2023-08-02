@@ -238,19 +238,37 @@ console.log('chien dep trai 12345');
 
 //toan tu ba ngoi
 
-let course={
-    name:'javascript',
-    coin: 250,
-}
-// if(course.coin>0){
-//     console.log('gia cua khoa hoc la: ',course.coin);
-// }else{
-//     console.log('khong xac dinh duoc gia cua khoa hoc');
+// let course={
+//     name:'javascript',
+//     coin: 250,
+// }
+// // if(course.coin>0){
+// //     console.log('gia cua khoa hoc la: ',course.coin);
+// // }else{
+// //     console.log('khong xac dinh duoc gia cua khoa hoc');
+// // }
+
+// let result=course.coin===250 ? console.log('gia cua khoa hoc la: ',course.coin) : console.log('khong xac dinh duoc gia cua khoa hoc');
+// let a=1,b=2;
+
+// let c=a>0 ? a : b;
+
+// console.log('c=',c);
+
+//vong lap loop
+//for
+// for(let i=1;i=100;i++) {
+//     console.log('yêu chien nhất trên đời',i);
 // }
 
-let result=course.coin===250 ? console.log('gia cua khoa hoc la: ',course.coin) : console.log('khong xac dinh duoc gia cua khoa hoc');
- let a=1,b=2;
+//for of
 
- let c=a>0 ? a : b;
-
- console.log('c=',c)
+let myInfo={
+    name:'chien',
+    age:21,
+    address: 'hanoi'
+}
+console.log(Object.values(myInfo));
+// for(let value of Object.keys(myInfo)) {
+//     console.log(myInfo[value]);
+// }
