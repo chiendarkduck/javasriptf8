@@ -275,11 +275,26 @@ console.log('chien dep trai 12345');
 // }
 
 
-//while loop
-let myarr=['Js','C','php'];
+// //while loop
+// let myarr=['Js','C','php'];
+
+// let i=0;
+// while(i<myarr.length) {
+//     console.log(myarr[i]);
+//     i++;
+// }
+
+//do while loop
 
 let i=0;
-while(i<myarr.length) {
-    console.log(myarr[i]);
+
+let isSuccess = false;
+
+do{
     i++;
-}
+    console.log('nap the lan',i);
+    if(true){
+        isSuccess = true;
+    }
+    
+} while(!isSuccess&&isSuccess<3);
