@@ -263,12 +263,23 @@ console.log('chien dep trai 12345');
 
 //for of
 
-let myInfo={
-    name:'chien',
-    age:21,
-    address: 'hanoi'
-}
-console.log(Object.values(myInfo));
+// let myInfo={
+//     name:'chien',
+//     age:21,
+//     address: 'hanoi'
+// }
+// console.log(Object.values(myInfo));
+// console.log(object.keys(myInfo));
 // for(let value of Object.keys(myInfo)) {
 //     console.log(myInfo[value]);
 // }
+
+
+//while loop
+let myarr=['Js','C','php'];
+
+let i=0;
+while(i<myarr.length) {
+    console.log(myarr[i]);
+    i++;
+}
