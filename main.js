@@ -362,19 +362,37 @@ let course=[
 //     return course.coin===0;
 // });
 
-let newCourses=course.map((course,index, originArray)=>{
-    // console.log(course);
-    return {
-        id: course.id,
-        name: `khoa hoc: ${course.name}`,
-        coin: course.coin,
-        coinTex: `gia: ${course.coin}`,
-        index: index,
-    };
-});
-console.log(newCourses);
+// let newCourses=course.map((course,index, originArray)=>{
+//     // console.log(course);
+//     return {
+//         id: course.id,
+//         name: `khoa hoc: ${course.name}`,
+//         coin: course.coin,
+//         coinTex: `gia: ${course.coin}`,
+//         index: index,
+//     };
+// });
+// console.log(newCourses);
 
-let newArr=course.map((course,index)=>{
-    return `<h2>${course.name}</h2>`;
-})
-console.log(newArr.join(' '));
+// let newArr=course.map((course,index)=>{
+//     return `<h2>${course.name}</h2>`;
+// })
+// console.log(newArr.join(' '));
+
+
+//reduce
+let i=0; 
+let totalCoin=course.reduce((accumulator,currentValue,currentindex,originArray)=>{
+    i++;
+    let total= accumulator+ currentValue.coin;
+    console.table({
+        'luot chay':i,
+        'bien luu tru':accumulator,
+        'gia khoa hoc':currentValue.coin,
+        'tich tru duoc':total,
+    });
+    
+    return total;
+},0);
+
+console.log(totalCoin);
