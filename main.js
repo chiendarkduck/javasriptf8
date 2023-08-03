@@ -381,18 +381,29 @@ let course=[
 
 
 //reduce
-let i=0; 
-let totalCoin=course.reduce((accumulator,currentValue,currentindex,originArray)=>{
-    i++;
-    let total= accumulator+ currentValue.coin;
-    console.table({
-        'luot chay':i,
-        'bien luu tru':accumulator,
-        'gia khoa hoc':currentValue.coin,
-        'tich tru duoc':total,
-    });
+// let i=0; 
+// let totalCoin=course.reduce((accumulator,currentValue,currentindex,originArray)=>{
+//     i++;
+//     let total= accumulator+ currentValue.coin;
+//     console.table({
+//         'luot chay':i,
+//         'bien luu tru':accumulator,
+//         'gia khoa hoc':currentValue.coin,
+//         'tich tru duoc':total,
+//     });
     
-    return total;
-},0);
+//     return total;
+// },0);
 
+// console.log(totalCoin);
+
+let total = course.reduce((a,b)=>{
+    return a+b.coin;
+},0);
+console.log(total);
+
+let number=[200,250,260,300];
+let totalCoin=number.reduce((a,b)=>{
+    return a+b;
+});
 console.log(totalCoin);
