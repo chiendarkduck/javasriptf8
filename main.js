@@ -318,9 +318,63 @@ console.log('chien dep trai 12345');
 //     }
 // }
 
+
 // for(let i=0;i<=100;i+=5){
 //     console.log(i);
 // }
-for(let i=100; i>0; i-=5){
-    console.log(i);
-}
+// for(let i=100; i>0; i-=5){
+//     console.log(i);
+// }
+
+//array
+let course=[
+    {
+        id:1,
+        name:'javascript',
+        coin:200
+    },
+    {
+        id:1,
+        name:'C++',
+        coin:250
+    },
+    {
+        id:1,
+        name:'PHP',
+        coin:260
+    },
+    {
+        id:1,
+        name:'Python',
+        coin:300
+    }
+];
+
+// course.forEach(function(courses,index){
+//     console.log(index ,courses);
+// });
+// let isFree=course.every(function(course,index){
+//     return course.coin===0;
+// });
+// console.log(isFree)
+
+// let somearr=course.some(function(course,index){
+//     return course.coin===0;
+// });
+
+let newCourses=course.map((course,index, originArray)=>{
+    // console.log(course);
+    return {
+        id: course.id,
+        name: `khoa hoc: ${course.name}`,
+        coin: course.coin,
+        coinTex: `gia: ${course.coin}`,
+        index: index,
+    };
+});
+console.log(newCourses);
+
+let newArr=course.map((course,index)=>{
+    return `<h2>${course.name}</h2>`;
+})
+console.log(newArr.join(' '));
